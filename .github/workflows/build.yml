@@ -9,6 +9,8 @@ on:
     branches:
       - main
       - blog
+  schedule:
+    - cron: '0 8,16,0 * * *'
 
 jobs:
   deploy:
